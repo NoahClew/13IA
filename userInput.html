@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="user profile creation">
+    <meta name="author" content="Noah Clewlow">
+    <title>Sign Up</title>
+    <link rel = "stylesheet" href = "style.css"> 
+</head>
+<body>
+
+    <main>
+        <img class="avat" src="images/user avatar.png" alt="avatar">  
+        <form class = "login2"action="/action_page.php" method="post">
+            <div id="inputBoxes">
+            <input type="text" style = "font-size: 2vw;" placeholder="Full Name"><br><br>
+            <input type="text" style = "font-size: 2vw;" placeholder="Email"><br><br>
+            <input type="text" style = "font-size: 2vw;" placeholder="Current Qualification"><br><br>
+            <input id ="pwInput"type="password" style = "font-size: 2vw;" placeholder="Password"><br>
+            <input type="checkbox" onclick="PasswordView()"> Show Password 
+            </div>
+            <a href="profile.html">
+            <button class = "btnLogin"type="button"> Sign up</button> 
+            </a>  
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

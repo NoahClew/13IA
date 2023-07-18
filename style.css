@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.logo{
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 40%;
+}
+.login{
+    padding-top:5% ;
+    text-align: center;
+    font-family:sans-serif;
+}
+.login2{
+    padding-top:3% ;
+    text-align: center;
+    font-family:sans-serif;
+}
+.btnLogin{
+    transition-duration: 0.5s;
+    background-color:	#0064fb;
+    color: white;
+    border: none;
+  
+    width: 15%;
+    height: 2vw;
+    border-radius: 10px;
+}
+.btnLogin:hover{
+    background-color: black;
+   
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+.avat{
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 0;
+}
+form{
+    padding: 0;
+}
+#inputBoxes{
+    display: flexbox;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 2%;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:#0064fb;
+    text-align: center;
+    font-size: 1.8vw;
+    padding: 42px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: grey;
+  }
+  .info{
+    padding: 5%;
+  }
